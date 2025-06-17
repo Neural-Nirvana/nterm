@@ -8,13 +8,13 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="nterm",
-    version="0.1.1",
+    version="0.1.5",
     author="Neural Nirvana",
     author_email="ekansh@duck.com",
-    description="A reasoning agent with system administration and IoT capabilities",
+    description="A Terminal based AI reasoning agent with system administration and IoT capabilities",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Neural-Nirvana/alpa",
+    url="https://github.com/Neural-Nirvana/nterm",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -30,7 +30,6 @@ setup(
         "Topic :: System :: Systems Administration",
     ],
     python_requires=">=3.8",
-    install_requires=requirements,
     entry_points={
         "console_scripts": [
             "nterm=nterm.cli:main",

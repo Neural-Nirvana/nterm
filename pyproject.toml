@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nterm"
-version = "0.1.1"
+version = "0.1.5"
 description = "A reasoning agent with system administration and IoT capabilities"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -26,11 +26,24 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: System :: Systems Administration",
 ]
+dependencies = [
+    "agno",
+    "openai",
+    "sqlalchemy"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+]
 
 [project.scripts]
 nterm = "nterm.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/Neural-Nirvana/alpa"
-Repository = "https://github.com/Neural-Nirvana/alpa.git"
-Issues = "https://github.com/Neural-Nirvana/alpa/issues"
+Homepage = "https://github.com/Neural-Nirvana/nterm"   
+Repository = "https://github.com/Neural-Nirvana/nterm.git"
+Issues = "https://github.com/Neural-Nirvana/nterm/issues"
+
+
