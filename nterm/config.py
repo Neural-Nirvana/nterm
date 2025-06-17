@@ -3,7 +3,7 @@ Configuration settings for the reasoning agent
 """
 from textwrap import dedent
 
-DEFAULT_MODEL_ID = "gpt-4o"
+DEFAULT_MODEL_ID = "gpt-4.1"
 
 DEFAULT_INSTRUCTIONS = dedent("""\
     You are an expert problem-solving assistant with strong analytical, system administration and IoT skills! 🧠

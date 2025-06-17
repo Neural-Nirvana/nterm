@@ -35,7 +35,7 @@ class ReasoningAgent:
         Initialize the reasoning agent.
         
         Args:
-            model_id: OpenAI model ID to use (default: gpt-4o)
+            model_id: OpenAI model ID to use (default: gpt-4.1)
             instructions: Custom instructions for the agent
             db_file: SQLite database file path for storage
             table_name: Database table name for sessions
@@ -71,7 +71,7 @@ class ReasoningAgent:
     
     def run_cli(self):
         """Start the interactive CLI application."""
-        logger.info("Starting interactive reasoning agent CLI. Type 'exit' or 'quit' to end the session.")
+        logger.info("Starting Nirvana Terminal Reasoning Agent CLI. Type 'exit' or 'quit' to end the session.")
         self.agent.cli_app()
     
     def query(self, message: str) -> str:
