@@ -1,6 +1,6 @@
 # NTerm: AI Terminal Reasoning Agent for System Administration and IoT Management
 
-![NTerm Demo](nterm-demo.mp4)
+![NTerm Demo](nterm-demo.gif)
 
 **NTerm** is an intelligent command-line interface (CLI) tool that combines artificial intelligence reasoning capabilities with system administration and Internet of Things (IoT) device management. This Python-based terminal application leverages advanced AI models to understand natural language queries about system environments and provides comprehensive answers using built-in shell tools and reasoning algorithms.
 
