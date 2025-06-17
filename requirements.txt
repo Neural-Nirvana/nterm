@@ -1,0 +1,4 @@
+# Core dependencies
+agno
+openai
+sqlalchemy
