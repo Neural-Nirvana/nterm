@@ -1,4 +1,4 @@
-# Alpa: Reasoning Agent Terminal Application
+# NTerm: Reasoning Agent Terminal Application
 
 A powerful reasoning agent with system administration and IoT capabilities. This agent can understand queries about system environments and use shell tools combined with reasoning capabilities to provide comprehensive answers.
 
@@ -33,7 +33,7 @@ nterm --query "What operating system am I running?"
 
 Use a different model:
 ```bash
-nterm --model gpt-4
+nterm --model gpt-4.1
 ```
 
 ### Python API Usage

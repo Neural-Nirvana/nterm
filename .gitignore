@@ -111,5 +111,5 @@ dmypy.json
 # macOS
 .DS_Store
 
-# Alpa specific
+# nterm specific
 tmp/
