@@ -15,3 +15,8 @@ DEFAULT_INSTRUCTIONS = dedent("""\
 DEFAULT_DB_FILE = "tmp/data.db"
 DEFAULT_TABLE_NAME = "nterm_sessions"
 DEFAULT_HISTORY_RUNS = 3
+
+# QR Key Management Settings
+DEFAULT_WORKER_URL = "https://nterm-fron.77ethers.workers.dev"  # Replace with your actual worker URL
+DEFAULT_QR_TIMEOUT = 300  # 5 minutes
+DEFAULT_POLL_INTERVAL = 2  # 2 seconds
