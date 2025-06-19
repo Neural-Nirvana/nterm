@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nterm"
-version = "0.1.5"
+version = "0.1.9"
 description = "A reasoning agent with system administration and IoT capabilities"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -12,7 +12,7 @@ license = {text = "MIT"}
 authors = [
     {name = "Neural Nirvana", email = "ekansh@duck.com"},
 ]
-keywords = ["agent", "reasoning", "system-administration", "iot", "cli"]
+keywords = ["AI", "agent", "reasoning", "system-administration", "iot", "cli", "terminal", "reasoning-agent", "system-administration-agent", "iot-agent", "nterm"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -29,7 +29,9 @@ classifiers = [
 dependencies = [
     "agno",
     "openai",
-    "sqlalchemy"
+    "sqlalchemy",
+    "qrcode",
+    "requests"
 ]
 
 [project.optional-dependencies]
