@@ -6,10 +6,13 @@ from textwrap import dedent
 from typing import Optional, List, Dict, Any
 from agno.agent import Agent
 from agno.models.openai import OpenAIChat
+from agno.models.groq import Groq
 from agno.tools.reasoning import ReasoningTools
 from agno.tools.shell import ShellTools
 from agno.storage.sqlite import SqliteStorage
 from agno.utils.log import logger
+from agno.tools.python import PythonTools
+from agno.tools.file import FileTools
 
 from .config import DEFAULT_INSTRUCTIONS, DEFAULT_MODEL_ID
 
@@ -60,7 +63,7 @@ class ReasoningAgent:
             )
         
         # Setup tools
-        tools = [ReasoningTools(add_instructions=True), ShellTools()]
+        tools = [ReasoningTools(add_instructions=True), ShellTools(), PythonTools(), FileTools()]
         if custom_tools:
             tools.extend(custom_tools)
         
