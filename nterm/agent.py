@@ -6,7 +6,7 @@ from textwrap import dedent
 from typing import Optional, List, Dict, Any
 from agno.agent import Agent
 from agno.models.openai import OpenAIChat
-from agno.models.groq import Groq
+
 from agno.tools.reasoning import ReasoningTools
 from agno.tools.shell import ShellTools
 from agno.storage.sqlite import SqliteStorage
