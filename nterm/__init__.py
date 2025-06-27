@@ -5,7 +5,7 @@ This package provides a reasoning agent with capabilities for system administrat
 and IoT tasks. It uses OpenAI models with shell tools and reasoning capabilities.
 """
 
-__version__ = "0.1.9"
+__version__ = "0.2.0"
 __author__ = "Neural Nirvana"
 __email__ = "ekansh@duck.com"
 
