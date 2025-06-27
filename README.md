@@ -279,6 +279,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **System Monitoring**: Integration with popular monitoring tools
 - **DevOps Workflows**: CI/CD pipeline integration
 - **IoT Platforms**: Compatible with major IoT management systems
+
+#nterm #AIterminal #DevOpsTool #OpenSourceCLI #TerminalWithAI #ShellAutomation #AIforSysadmins #MultiAgentAI #RemoteTerminal #ContextAwareCLI #PlanningMode #SelfHostedAI #DevTool #ProductivityTool
+
 - **AI Frameworks**: Extensible AI model support
 
 ---
