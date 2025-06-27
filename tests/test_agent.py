@@ -26,7 +26,7 @@ class TestReasoningAgent(unittest.TestCase):
         agent = ReasoningAgent(db_file=self.temp_db.name)
         
         self.assertIsNotNone(agent.agent)
-        self.assertEqual(agent.model_id, "gpt-4o")
+        self.assertEqual(agent.model_id, "gpt-4.1")
         self.assertEqual(agent.db_file, self.temp_db.name)
         mock_agent.assert_called_once()
     
