@@ -1,0 +1,20 @@
+{
+  "theme": {
+    "name": "cyberpunk",
+    "primary_color": "cyan",
+    "secondary_color": "magenta",
+    "accent_color": "green",
+    "text_color": "white",
+    "dim_color": "dim white",
+    "banner_style": "elegant",
+    "prompt_symbol": "\ud83d\udd2e",
+    "ai_symbol": "\ud83e\udd16",
+    "border_style": "rounded"
+  },
+  "display": {
+    "show_status_line": true,
+    "show_model_info": true,
+    "center_banner": true,
+    "animate_responses": true
+  }
+}
