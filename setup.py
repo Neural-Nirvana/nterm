@@ -8,7 +8,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="nterm",
-    version="0.2.0",
+    version="0.4.0",
     author="Neural Nirvana",
     author_email="ekansh@duck.com",
     description="A Terminal based AI reasoning agent with system administration and IoT capabilities",
