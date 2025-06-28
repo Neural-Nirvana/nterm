@@ -5,7 +5,7 @@ import argparse
 import sys
 import os
 from typing import Optional
-from .agent import ReasoningAgent, create_nterm
+from .enhancedagent import ElegantReasoningAgent, create_elegant_nterm
 from .config import DEFAULT_MODEL_ID, DEFAULT_DB_FILE, DEFAULT_TABLE_NAME, DEFAULT_HISTORY_RUNS, DEFAULT_WORKER_URL
 from agno.utils.log import logger
 
@@ -531,7 +531,7 @@ def main():
         
         # Create the reasoning agent (keys should now be loaded)
         try:
-            agent = ReasoningAgent(
+            agent = ElegantReasoningAgent(
                 model_id=args.model,
                 db_file=args.db_file,
                 table_name=args.table_name,
