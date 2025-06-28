@@ -9,7 +9,7 @@ __version__ = "0.3.0"
 __author__ = "Neural Nirvana"
 __email__ = "ekansh@duck.com"
 
-from .agent import ReasoningAgent, create_nterm
+from .enhancedagent import ElegantReasoningAgent, create_elegant_nterm
 from .config import (
     DEFAULT_MODEL_ID,
     DEFAULT_INSTRUCTIONS,
@@ -19,8 +19,8 @@ from .config import (
 )
 
 __all__ = [
-    "ReasoningAgent",
-    "create_nterm",
+    "ElegantReasoningAgent",
+    "create_elegant_nterm",
     "DEFAULT_MODEL_ID",
     "DEFAULT_INSTRUCTIONS",
     "DEFAULT_DB_FILE",

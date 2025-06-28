@@ -1,8 +1,7 @@
 """
-Elegant reasoning agent with beautiful visual hierarchy and design
+Elegant reasoning agent
 """
 import os
-from textwrap import dedent
 from typing import Optional, List, Dict, Any
 from agno.agent import Agent
 from agno.models.openai import OpenAIChat
@@ -21,18 +20,16 @@ from rich.prompt import Prompt
 from rich.table import Table
 from rich.theme import Theme
 from rich.align import Align
-from rich.box import ROUNDED, HEAVY, MINIMAL
+from rich.box import ROUNDED, MINIMAL
 from rich.rule import Rule
 from rich.columns import Columns
-from rich.padding import Padding
-import time
 
 from .config import DEFAULT_INSTRUCTIONS, DEFAULT_MODEL_ID
 
 
 class ElegantReasoningAgent:
     """
-    A beautifully designed reasoning agent with elegant visual hierarchy.
+    A beautifully designed reasoning agent.
     """
     
     def __init__(
@@ -437,9 +434,10 @@ class ElegantReasoningAgent:
             ("help", "Show this help message"),
             ("status", "Display system information"),
             ("clear", "Clear the screen"),
-            ("history", "Show conversation history"),
+            # ("history", "Show conversation history"),
             ("reasoning on/off", "Toggle reasoning display"),
             ("test", "Test agent functionality"),
+            ("use nterm --model <model_id>", "Change the model before initiating the session"),
             ("exit", "End the session")
         ]
         
@@ -486,11 +484,11 @@ class ElegantReasoningAgent:
         tips_content.append("\n")
         
         tips = [
-            "• Ask complex questions to see reasoning",
-            "• Request step-by-step explanations", 
-            "• Use 'reasoning on' to see tool usage",
+            "• Ask any question",
+            "• request step-by-step explanations", 
+            "• Use 'reasoning on' to see overall thinking",
             "• Try mathematical or analytical problems",
-            "• Ask for system information or file operations"
+            "• Ask for system information or file operations. enjoy"
         ]
         
         for tip in tips:
