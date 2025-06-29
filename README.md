@@ -1,5 +1,6 @@
-# NTerm: AI Terminal Reasoning Agent for System Administration and IoT Management
 [![PyPI Downloads](https://static.pepy.tech/badge/nterm)](https://pepy.tech/projects/nterm)
+# NTerm: AI Terminal Reasoning Agent for System Administration and IoT Management
+
 
 ![NTerm Demo](nterm-demo.gif)
 
